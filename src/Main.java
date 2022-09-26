@@ -23,8 +23,11 @@ public class Main {
     private static void homeWork3(){
         System.out.println("Задача 3");
         String fullName = "Иванов Семён Семёнович";
+
+        System.out.println();
         String fullName1 = fullName.replace("ё", "е");
         System.out.println("Данные ФИО сотрудника - " + fullName1);
         System.out.println();
     }
+
 }
